@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.razorvine:pyrolite:4.13">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/razorvine/pyrolite/4.13/pyrolite-4.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

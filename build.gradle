@@ -1,0 +1,22 @@
+group 'org.abc.data_preprocess'
+version '1.0'
+
+apply plugin: 'scala'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url("https://mvnrepository.com/artifact/org.apache.spark/spark-core") }
+    jcenter()
+}
+
+
+dependencies {
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.1.0'
+
+     compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-scala_2.11', version: '2.6.3'
+
+
+}
